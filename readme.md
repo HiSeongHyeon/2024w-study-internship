@@ -1,5 +1,4 @@
 # 2024_Winter_공학연구인턴십
-- - - 
 ## 실험 1.
 - 대상이 다른 Pruning 방식(Unstructured, Structured)의 차이가 Model의 Accuracy와 Inference Time에 미치는 영향 조사
 ##### Dataset
@@ -13,7 +12,6 @@
     - Pruning Ratio : [0%, 20%, 40%, 60%, 80%]
     2.1 Unstructured Pruning
     2.2 Structured Pruning
-- - - 
 ## 실험 2.
 - Iterative Pruning Strategy, 초기 Weight 값(실험 1의 Best Model's Weights, Random Weights)을 다르게 하여 Winning Ticket 발견하기
     - Winning Ticket 원본 논문 : 
