@@ -1,5 +1,6 @@
 # 2024_Winter_공학연구인턴십
 목적 : [1] J. Frankle and M. Carbin, “The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks,” Mar. 04, 2019, arXiv: arXiv:1803.03635. doi: 10.48550/arXiv.1803.03635.
+
 위 논문을 바탕으로, 기계 결함 진단 데이터셋인 UOS, CWRU 데이터셋에서 WDCNN 기반의 Bearing Machine Fault Diagnosis Model에서도 Winning Ticket이 존재하는지 Pruning 기법을 활용하여 확인하고자 함.
 
 본 프로젝트의 실험 구성은 '4. 실험 구성' 참조
@@ -49,7 +50,7 @@
     2.2 Structured Pruning
 ### 실험 2.
 - Iterative Pruning Strategy, 초기 Weight 값(실험 1의 Best Model's Weights, Random Weights)을 다르게 하여 Winning Ticket 발견하기
-    - Winning Ticket 원본 논문 : 
+    - Winning Ticket 원본 논문 : [1] J. Frankle and M. Carbin, “The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks,” Mar. 04, 2019, arXiv: arXiv:1803.03635. doi: 10.48550/arXiv.1803.03635.
 ##### Dataset
  - CWRU Dataset
  - UOS Dataset
@@ -78,5 +79,6 @@
     - 2.1 Strategy 1 적용 (Initialization)
     - 2.2 Strategy 2 적용 (No Initialization)
 - - -
+
 
 
